@@ -4,7 +4,7 @@ const app = express()
 
 app.get("/getData", ()=>{
 
-      console.log("hi hello every one");
+      res.json("hi hello")
       
 }) 
 
